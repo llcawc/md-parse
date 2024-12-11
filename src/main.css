@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-zinc-700 bg-white dark:text-zinc-200 dark:bg-zinc-900;
+  }
+}
+@layer components {
+  #app {
+    @apply max-w-[800px] px-3 mx-auto mt-5 prose dark:prose-invert;
+  }
+}
