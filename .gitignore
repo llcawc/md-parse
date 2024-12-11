@@ -1,4 +1,19 @@
+# Node & project folders
+.git
+.osp
+dist
+dist-ssr
+node_modules
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+*.env
+*.exclude
+*.local
+makefile
+
 # Logs
+debug.log
 logs
 *.log
 npm-debug.log*
@@ -7,18 +22,34 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# archive package
+/**/*.zip
+/**/*.7z
+
+# iMac cash files
+/**/*.DS_Store
+
+# Windows thumbnail cache files
+/**/Thumbs.db
+/**/Thumbs.db:encryptable
+/**/ehthumbs.db
+/**/ehthumbs_vista.db
+
+# Dump file
+/**/*.stackdump
+
+# Folder config file
+/**/[Dd]esktop.ini
+
+# Windows shortcuts
+/**/*.lnk
